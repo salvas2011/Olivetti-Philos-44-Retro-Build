@@ -44,3 +44,55 @@ Vintage computers have a unique design and feel that modern hardware does not re
 ---
 
 Made with a mix of **vintage Olivetti hardware and modern electronics**.
+
+## Build Images
+
+
+### Custom USB Keyboard PCB
+
+![Custom USB Keyboard PCB](images/pcb.png)
+
+
+## Bill of Materials Of the Keyboard Pcb
+
+| Component                | Quantity | Purpose                 |
+| ------------------------ | -------: | ----------------------- |
+| Seeed Studio XIAO RP2040 |        1 | Main microcontroller    |
+| MCP23017-E/SS            |        1 | GPIO expansion          |
+| 0603 Resistors           |    1 set | PCB components          |
+| 0603 Capacitors          |    1 set | PCB components          |
+| 2.54mm Pin Headers       |    1 set | Connections             |
+| Custom PCB               |        1 | USB keyboard controller |
+
+See `BOM.csv` for the complete bill of materials, including component prices and purchase links.
+
+## Hardware Design Files
+
+The source files used to design the custom hardware are included in this repository.
+
+### PCB
+
+The PCB source files are located in the `PCB/` directory.
+
+They include the original editable design files used to create the custom USB keyboard PCB.
+
+### Schematic
+
+The schematic used to design and connect the keyboard controller is included with the PCB design files.
+
+### Manufacturing Files
+
+Gerber files and other manufacturing files are included when available, allowing the PCB to be reproduced.
+
+## Documentation
+
+The development process and reverse-engineering work are documented through the project's devlog entries.
+
+The documentation includes:
+
+* Reverse engineering of the original Olivetti keyboard
+* Mapping of the keyboard matrix
+* Documentation of the keyboard connectors
+* PCB design and revisions
+* Testing of the custom electronics
+* Integration of modern electronics with the original hardware
