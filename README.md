@@ -54,6 +54,7 @@ Made with a mix of **vintage Olivetti hardware and modern electronics**.
 
 
 ## Bill of Materials Of the Keyboard Pcb
+https://github.com/salvas2011/Olivetti-Philos-44-Retro-Build/blob/main/documentation/bom.csv
 
 | Component                | Quantity | Purpose                 |
 | ------------------------ | -------: | ----------------------- |
