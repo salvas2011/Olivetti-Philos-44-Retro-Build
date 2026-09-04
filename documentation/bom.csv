@@ -1,0 +1,14 @@
+Reference,Quantity,Description,Value,Footprint
+U1,1,MCP23017 I/O Expander,MCP23017,SSOP-28
+U2,1,MCP23017 I/O Expander,MCP23017,SSOP-28
+U3,1,Seeed Studio XIAO RP2040,XIAO RP2040,XIAO-RP2040-SMD
+J1,1,19-pin FFC/FPC Connector,1.0mm pitch,JUSHUO AFA07-S19FCA-00
+J2,1,8-pin FFC/FPC Connector,1.0mm pitch,JUSHUO AFA07-S08FCA-00
+J3,1,19-pin Male Pin Header,2.54mm pitch,1x19 Vertical
+J4,1,8-pin Male Pin Header,2.54mm pitch,1x08 Vertical
+R1,1,Resistor,4.7kΩ,0603
+R2,1,Resistor,4.7kΩ,0603
+R3,1,Resistor,10kΩ,0603
+R4,1,Resistor,10kΩ,0603
+C1,1,Ceramic Capacitor,100nF,0603
+C2,1,Ceramic Capacitor,100nF,0603
